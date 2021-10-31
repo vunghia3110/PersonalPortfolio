@@ -21,7 +21,7 @@
 .nav-item__link {
     text-decoration: none;
     color: var(--white-color);
-    font-size: 2.2em;
+    font-size: 2.2rem;
 }
 
 #welcome-section {
@@ -37,16 +37,56 @@
     color: var(--white-color);
 }
 .welcome__main-cap {
-    font-size: 5.8em;
+    font-size: 5.8rem;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     line-height: 84px;
+    margin: 10px 0 20px;
 }
 .welcome__sub-cap {
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: 200;
     font-style: italic;
     color: var(--red-color);
     margin: 10px 0;
     text-align: center;
+}
+
+#projects {
+    background-color: var(--violet-color);
+    padding: 10rem 2rem;
+}
+.projects-title {
+    max-width: 640px;
+    line-height: 58px;
+    margin: 0 auto 6rem auto;
+    color: var(--white-color);
+    border-bottom: 2px solid #fff;
+}
+.projects-list {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.project-tile {
+    display: block;
+    width: 400px;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+.project-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.project-title {
+    color: var(--white-color);
+    text-align: center;
+    background-color: var(--gray-color);
+    font-size: 2rem;
+    padding: 2rem ;
+    margin: 0;
 }

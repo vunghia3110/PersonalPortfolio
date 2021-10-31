@@ -29,6 +29,12 @@ html {
     box-sizing: border-box;
 }
 
-#navbar {
-    background-color: brown;
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-size: 4.2rem;
 }
