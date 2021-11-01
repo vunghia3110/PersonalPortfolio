@@ -57,31 +57,32 @@
     padding: 10rem 2rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .projects-title {
-    max-width: 640px;
-    line-height: 58px;
+    max-width: 64rem;
+    line-height: 5.8rem;
     margin: 0 auto 6rem auto;
     color: var(--white-color);
     border-bottom: 2px solid #fff;
 }
 .projects-list {
-    max-width: 1280px;
-    margin: 0 auto;
+    max-width: 128rem;
+    margin: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .project-tile {
     display: block;
-    width: 400px;
+    width: 40rem;
     text-decoration: none;
-    margin-bottom: 40px;
-    position: relative;
+    margin-bottom: 4rem;
 }
 .project-img {
-    width: 400px;
-    height: 400px;
+    width: 40rem;
+    height: 40rem;
     object-fit: cover; 
     object-position: 50% 50%; 
     margin: 0;
@@ -99,10 +100,10 @@
     background-color: var(--gray-color);
     color: var(--white-color);
     text-decoration: none;
-    min-width: 148px;
-    height: 50px;
+    min-width: 14.8rem;
+    height: 5rem;
     font-size: 2.2rem;
-    line-height: 50px;
+    line-height: 5rem;
     text-align: center;
     margin: 0 auto;
     transition: background-color 0.3s ease-out;
@@ -133,7 +134,8 @@
 .profile-contacts {
     display: flex;
     margin-top: 40px;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .profile-contact {
     font-size: 2.4rem;
@@ -148,6 +150,7 @@
     border-top: 2px solid var(--red-color);
     padding: 2rem;
     font-weight: 300;
+    flex-wrap: wrap;
 }
 
 .footer > p {
@@ -157,3 +160,8 @@
     text-decoration: none;
     color: var(--white-color);
 }
+
+
+@media screen and (max-width: 320px) {
+    
+  }
